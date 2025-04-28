@@ -1,4 +1,5 @@
 {
-  "ignore": ["public/*"],
-  "exec": "babel-node server.js"
+    "exec": "babel-node src/server.js",
+    "ignore": ["node_modules", "src/public/*"],
+    "ext": "js,json,jsx"
 }
